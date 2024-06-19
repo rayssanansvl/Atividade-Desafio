@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fontes/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#header {
+  background: #353a3d;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#items {
+  background-color: #ebdbe077;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.items h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.items p {
+  margin: 5px 0 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.items input[type="text"],
+.items input[type="email"],
+.items input[type="password"] {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container button {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.container button:hover {
+  background-color: #e91e63;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#dividir {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  color: #ff4081;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+  background: #ebdbe077;
+  display: flex;
+  align-items: center;
+}
+
+#TP {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6em;
+  margin-right: 4em;
+}
+
+#idioma {
+  display: flex;
+  text-align: center;
+}
+
+#idioma a {
+  margin: auto 20px 0px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  transform: translateY(-10px);
+}
+
+#idioma p {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+}
+
+#risquinho {
+  height: 3px;
+  width: 30px;
+  background: #e91e63;
+  margin: 10px auto 10px;
+}
+input {
+  margin: 10px 0px 10px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+}
+#membro {
+  font-size: 10px;
+  margin: 20px 0px 20px;
+}
